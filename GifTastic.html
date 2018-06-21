@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+
+<body>
+
+  <div class="container">
+      <div class="jumbotron" style="background-color: #20315A ; color: white;">
+          <h1 class="text-center">
+            <strong> Search for a GIF!</strong>
+          </h1>
+        </div>
+  
+
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <form id="gif-form">
+      <label for="gif-input">Add a gif Here</label>
+      <input type="text" id="gif-input">
+      <br>
+
+      <!-- Button triggers new gif to be added -->
+      <input id="add-gif" type="submit" value="Add a GIF Bro">
+    </form>
+  </div>
+
+  <div class= "container">
+     <!-- gifs will Get Dumped Dere -->
+     <div id="gif-view" style= "float:left"></div>
+
+  </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/gifjs.js"></script>
+    
+  </div>
+</body>
+
+</html>

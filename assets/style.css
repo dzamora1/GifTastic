@@ -1,0 +1,11 @@
+
+button,
+div,
+form,
+input {
+  margin: 10px;
+}
+
+.gifIm {
+  display: inline;
+}
